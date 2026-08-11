@@ -1,0 +1,19 @@
+{
+    "id": "keep_original_language_audio",
+    "name": "Keep Original Language Audio",
+    "author": "Alfred (for Jon)",
+    "version": "0.1.0",
+    "tags": "audio,ffmpeg,sonarr,radarr,language",
+    "description": "Removes audio tracks that are not the item's original language. The original language is looked up from Sonarr (TV) or Radarr (Movies) based on the file. An optional user-defined keep-list preserves additional languages. Fails safe: if the original language cannot be resolved, or if the rule would remove every audio track, all audio is kept.",
+    "icon": "https://raw.githubusercontent.com/Josh5/unmanic/master/icon.png",
+    "compatibility": [
+        2
+    ],
+    "platform": [
+        "all"
+    ],
+    "priorities": {
+        "on_library_management_file_test": 90,
+        "on_worker_process": 5
+    }
+}
