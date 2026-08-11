@@ -1,0 +1,6 @@
+site-packages/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
