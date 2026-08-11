@@ -1,0 +1,6 @@
+[b][color=56adda]0.1.0[/color][/b]
+• Initial version
+• Look up original language from Sonarr (TV) or Radarr (Movies)
+• Remove audio tracks that are not the original language
+• User-defined keep-list of additional languages to preserve
+• Fail-safe: keep all audio when language is unresolved or all audio would be stripped
